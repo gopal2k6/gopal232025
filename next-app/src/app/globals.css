@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #000;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/************* Header CSS **********/
+header{display: flex; justify-content: center; align-items: center; padding: 50px;}
+.header__container{max-width: 1400px; margin: 0px auto;}
+header ul{display: flex; flex-direction: row; flex-wrap: nowrap; gap: 10px;}
+
+
+
+
+/************* Footer CSS **********/
+footer{display: flex; justify-content: center; align-items: center; padding: 50px;}
